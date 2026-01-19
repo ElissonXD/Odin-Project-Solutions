@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <h2 class = "title">Etch-a-Sketch</h2>
+        <div class = "content">
+            <form>Choose the grid size (max 100)</form>
+            <div class = "buttons">
+                <input type = "number" id ="size" set = 64 min = 1 max = 100>
+                <button class = "send" onclick="getValue()">send</button>
+                <button class = "reset" onclick = "erase()">Clear</button>
+            </div>
+        </div>
+        <div class = "grid"></div>
+    </div>
+
+    <script src = "script.js"></script>
+
+
+
+    <div class = "exit"><a href="../index.html">Home</a></div>
+</body>
+</html>
